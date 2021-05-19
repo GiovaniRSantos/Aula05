@@ -21,6 +21,10 @@ public class TeacherHelper {
 			opcao = leitor.nextInt();
 			
 			switch (opcao) {
+			case 0:	
+				System.out.println("Você é o motivo dos cabelos dos alunos cairem");
+				break;
+				
 			case 1:
 				/*O salário dos professores de escolas particulares em
 				 * São Paulo é composto da seguinte forma 
